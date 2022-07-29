@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.global-btn{
+    font-weight: bold;
+    font-size: 12px;
+    color: #fff;
+    border : none;
+    padding: 10px 30px;
+    background-color: #8bb7a2;
+}
+
+
+/* Header Section */
+
+header{
+    height: 600px;
+    background-color: #636c79;
+}
+
+
+nav{
+    padding: 0px 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+}
+
+nav .logo-section img{
+    margin-left: 100px;
+    margin-top: 40px;
+    width: 90px;
+}
+
+nav ul{
+    margin-left: 250px;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    gap: 30px;
+    color: #fff;
+}
+
+
+ #nav-btn .btn{
+    /* margin-right: 250px; */
+    font-weight: bold;
+    font-size: 12px;
+    color: #fff;
+    border : 1px solid #747a83;
+    padding: 10px 30px;
+    background-color: transparent;
+}
+
+/* banner-section */
+
+.banner{
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0px 50px;
+    margin-left: 100px;
+}
+
+.banner-img img{
+    margin-top: 100px;
+    width:350px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.banner-right-section{
+    margin-top: 85px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 30px;
+
+}
+
+.banner-right-section h1{
+    line-height: 55px;
+    font-size: 50px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.banner-right-section p{
+    font-size: 13px;
+    color: #fff;
+    line-height: 18px;
+}
+
+.email-section img{
+    position: absolute;
+    width:15px;
+    top: 475px;
+    left: 650px;
+}
+
+.email-section input{
+    text-align: start;
+    padding-left: 500px;
+    font-size: 8px;
+    padding: 15px 120px;
+}
+
+.email-section button{
+    position: relative;
+    top: 1px;
+    right: 122px;
+}
+
+/* Analytics-section */
+
+.analytics-section{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 150px;
+    gap: 50px;
+}
+
+.analytics-section ul{
+    margin-top:-20px ;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    gap: 150px;
+}
+
+.analytics p{
+    font-size: 10px;
+    text-align: right;
+}
+
+.analytics-img img{
+    width: 50rem;
+   height: 30rem;
+   object-fit: cover;
+}
+
+/* description-section  */
+
+.description-section{
+    /* height: 500px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 200px;
+    gap: 50px;
+}
+
+.right-section img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    object-position: right;
+}
+
+.description-row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 90px;
+}
+
+.left-section{
+    text-align: left;
+}
+
+.left-section p{
+    margin-top: 20px;
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.left-section .global-btn{
+    margin-top: 30px;
+
+}
+
+/* row-two */
+#row-two{
+    flex-direction: row-reverse;
+}
+
+#row-two img{
+    object-fit: cover;
+    object-position: top;
+}
+
+/* row-three */
+
+#row-three img{
+    object-fit: cover;
+    object-position: top;
+}
+
+
+
+/* creative-section */
+
+.creative-section .team-member-img img{
+    width:250px
+}
+
+.creative-section{
+    margin-top: 100px;
+}
+
+.creative-section-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 100px; */
+    gap: 210px;
+}
+
+.creative-section-heading p{
+    font-size: 12px;
+    line-height: 25px;
+}
+
+.team-members{
+    margin-top: 50px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.team-member-info{
+    margin-top: 10px;
+}
+
+.team-member-info p{
+    margin-top: 10px;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.creative-section button{
+    margin-top: 50px;
+    margin-left: 34.5rem;
+}
+
+/* footer */
+
+footer{
+    margin-top: 80px;
+    background-color: #000;
+    color: #fff;
+    height: 300px;
+}
+
+footer .footer-top{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    gap: 10px;
+}
+
+.footer-top-left img{
+    width:100px;
+}
+
+.footer-top-right ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-top-right ul img{
+    width: 40px;
+}
+
+/* footer .footer-top::after{
+    content: "";
+    position: fixed;
+    left: 210px;
+    bottom: 87px;
+    height: 10px;
+    width: 65%;
+    border-bottom: 1px solid white;
+} */
+
+footer .hr{
+    height: 1px;
+    margin-left: 210px;
+    background-color: #636c79;
+    width: 65%;
+    display: block;
+}
+
+.footer-bottom{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    gap: 80px;
+}
+
+.footer-bottom ul{
+    line-height: 30px;
+    list-style-type: none;
+    font-size: 10px;
+    color: #636c79;
+}
+
+#first-element{
+    font-size: 15px;
+    font-weight: bold;
+    color: #fff;
+}
